@@ -1,0 +1,146 @@
+/* Base styles */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+  font-weight: 500;
+  color: #ffffff;
+  padding: 0.3rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.3); 
+  backdrop-filter: blur(8px); 
+}
+
+.logo,
+.navbar-text,
+.nav-buttons {
+  flex: 1;
+}
+
+/* Logo */
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.navbar-logo {
+  height: 90px;
+  width: auto;
+}
+
+/* Center Text */
+.navbar-text {
+  text-align: center;
+  white-space: nowrap;
+}
+
+.navbar-text {
+  font-size: 1rem; /* Make text larger */
+  letter-spacing: 1px;
+  background-color: #00ff66; /* Your specified color */
+  padding: 10px 20px; /* Padding for the box */
+  color: black; /* Text color */
+  
+  /* Adding a box shadow for 3D effect */
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2), -4px -4px 8px rgba(0, 0, 0, 0.2);
+
+  /* Optional: Adding a border to enhance the effect */
+  border: 1px solid rgba(0, 0, 0, 0.1);
+
+  /* Optional: Slight border radius for softer edges */
+  border-radius: 5px;
+}
+
+/* Navigation Links */
+.nav-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+  padding: 0 0.5rem;
+  flex-wrap: wrap;
+}
+
+.nav-buttons a {
+  color: #00ff66;
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-buttons a:hover {
+  color: #00aaff;
+}
+
+.arrow-cursor {
+  cursor: pointer;  
+}
+
+/* Mobile Responsive Adjustments */
+@media (max-width: 768px) {
+  /* Navbar layout adjustments for mobile */
+  .navbar {
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem; /* Add padding for mobile */
+  }
+
+  /* Logo */
+  .logo {
+    margin-bottom: 1rem;
+  }
+
+  .navbar-logo {
+    height: 60px; /* Adjust logo size for mobile */
+  }
+
+  /* Center Text */
+  .navbar-text {
+    font-size: 1.2rem; /* Slightly larger font size on mobile */
+    padding: 10px;
+    margin-bottom: 1rem; /* Add margin to separate text and buttons */
+  }
+
+  /* Navigation links */
+  .nav-buttons {
+    flex-direction: column; /* Stack the navigation links vertically */
+    gap: 0.75rem;
+    justify-content: center;
+    align-items: center; /* Center the links */
+    width: 100%; /* Full width for the links */
+    margin-top: 1rem;
+  }
+
+  .nav-buttons a {
+    font-size: 1rem; /* Increase font size slightly on mobile */
+  }
+
+  /* Logo and navbar items responsiveness */
+  .logo,
+  .navbar-text,
+  .nav-buttons {
+    width: 100%; /* Ensure items take full width for mobile view */
+    text-align: center;
+  }
+}
+
+/* Further adjustments for very small screens */
+@media (max-width: 480px) {
+  .navbar-text {
+    font-size: 1rem; /* Adjust text size for smaller screens */
+  }
+
+  .nav-buttons a {
+    font-size: 0.9rem; /* Adjust navigation link size */
+  }
+}
