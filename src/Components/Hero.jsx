@@ -289,7 +289,7 @@ const Hero = () => {
     <img src="/Realme.webp" alt="Client 2" className="h-16 mx-8" />
     <img src="/Hotstar.jpeg" alt="Client 3" className="h-16 mx-8" />
     <img src="/keshKing.png" alt="Client 4" className="h-16 mx-8" />
-    <img src="/new Colors.jpg" alt="Client 5" className="h-16 mx-8" />
+    <img src="/new colors.jpg" alt="Client 5" className="h-16 mx-8" />
     <img src="/DMF.jpg" alt="Client 6" className="h-16 mx-8" />
     <img src="/Acer.jpg" alt="Client 7" className="h-16 mx-8" />
     <img src="/primevideo.png" alt="Client 8" className="h-16 mx-8" />
@@ -304,7 +304,7 @@ const Hero = () => {
       <img src="/Woodland.png" alt="Client 2" className="h-16 mx-8" />
       <img src="/Sony.png" alt="Client 3" className="h-16 mx-8" />
       <img src="/Xiaomi-Logo.png" alt="Client 4" className="h-16 mx-8" />
-      <img src="/assets/Tseries.jpg" alt="Client 5" className="h-16 mx-8" />
+      <img src="/Tseries.jpg" alt="Client 5" className="h-16 mx-8" />
       <img src="/Cadbury_Logo.png" alt="Client 6" className="h-16 mx-8" />
       <img src="/Flipkart.png" alt="Client 7" className="h-16 mx-8" />
       <img src="/Loco.jpg" alt="Client 8" className="h-16 mx-8" />
