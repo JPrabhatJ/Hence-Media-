@@ -41,7 +41,7 @@ const Hero = () => {
     </ul>
   </div>
   <div className="md:w-1/2 p-4">
-    <video autoPlay muted loop className="w-full rounded-lg">
+    <video autoPlay muted loop className="w-full rounded-lg border-4 border-black-300 shadow-md">
       <source src="/MM(Hence).mp4" type="video/mp4" />
       Your browser does not support the video tag.
     </video>
@@ -63,7 +63,7 @@ const Hero = () => {
       </ul>
   </div>
     <div className="md:w-1/2 p-4">
-    <video autoPlay muted loop className="w-full rounded-lg">
+    <video autoPlay muted loop className="w-full rounded-lg border-4 border-black-300 shadow-md">
       <source src="/IM(Hence).mp4" type="video/mp4" />
       Your browser does not support the video tag.
     </video>
@@ -84,7 +84,7 @@ const Hero = () => {
     </ul>
   </div>
   <div className="md:w-1/2 p-4">
-    <video autoPlay muted loop className="w-full rounded-lg">
+    <video autoPlay muted loop className="w-full rounded-lg border-4 border-black-300 shadow-md">
       <source src="/PM(Hence).mp4" type="video/mp4" />
       Your browser does not support the video tag.
     </video>
@@ -106,7 +106,7 @@ const Hero = () => {
       </ul>
   </div>
     <div className="md:w-1/2 p-4">
-    <video autoPlay muted loop className="w-full rounded-lg">
+    <video autoPlay muted loop className="w-full rounded-lg border-4 border-black-300 shadow-md">
       <source src="/X(Hence).mp4" type="video/mp4" />
       Your browser does not support the video tag.
     </video>
@@ -126,7 +126,7 @@ const Hero = () => {
       </ul>
   </div>
    <div className="md:w-1/2 p-4">
-    <video autoPlay muted loop className="w-full rounded-lg">
+    <video autoPlay muted loop className="w-full rounded-lg border-4 border-black-300 shadow-md">
       <source src="/MT(Hence).mp4" type="video/mp4" />
       Your browser does not support the video tag.
     </video>
@@ -148,7 +148,7 @@ const Hero = () => {
     </ul>
   </div>
   <div className="md:w-1/2 p-4">
-    <video autoPlay muted loop className="w-full rounded-lg">
+    <video autoPlay muted loop className="w-full rounded-lg border-4 border-black-300 shadow-md">
       <source src="/PR(Hence).mp4" type="video/mp4" />
       Your browser does not support the video tag.
     </video>
@@ -170,7 +170,7 @@ const Hero = () => {
       </ul>
   </div>
     <div className="md:w-1/2 p-4">
-    <video autoPlay muted loop className="w-full rounded-lg">
+    <video autoPlay muted loop className="w-full rounded-lg border-4 border-black-300 shadow-md">
       <source src="/AV(Hence).mp4" type="video/mp4" />
       Your browser does not support the video tag.
     </video>
@@ -194,7 +194,7 @@ const Hero = () => {
   {/* Section 1 */}
    <div className="flex flex-col md:flex-row items-center mb-16 max-w-6xl mx-auto">
    <div className="md:w-1/2 p-4">
-  <img src="/Dhoni.webp" alt="Campaign Image" className="w-full rounded-lg" />
+  <img src="/Dhoni.webp" alt="Campaign Image" className="w-full rounded-lg border-4 border-black-300 shadow-md" />
 </div>
 
     <div className="md:w-1/2 p-4">
@@ -210,7 +210,7 @@ const Hero = () => {
 
     <div className="flex flex-col md:flex-row items-center mb-16 max-w-6xl mx-auto">
    <div className="md:w-1/2 p-4">
-  <img src="/BB(Hence).jpg" alt="Campaign Image" className="w-full rounded-lg" />
+  <img src="/BB(Hence).jpg" alt="Campaign Image" className="w-full rounded-lg border-4 border-black-300 shadow-md" />
 </div>
 
     <div className="md:w-1/2 p-4">
@@ -227,7 +227,7 @@ const Hero = () => {
 
    <div className="flex flex-col md:flex-row items-center mb-16 max-w-6xl mx-auto">
    <div className="md:w-1/2 p-4">
-  <img src="/Panchayat.webp" alt="Campaign Image" className="w-full rounded-lg" />
+  <img src="/Panchayat.webp" alt="Campaign Image" className="w-full rounded-lg border-4 border-black-300 shadow-md" />
 </div>
 
     <div className="md:w-1/2 p-4">
@@ -244,7 +244,7 @@ const Hero = () => {
 
   <div className="flex flex-col md:flex-row items-center mb-16 max-w-6xl mx-auto">
    <div className="md:w-1/2 p-4">
-  <img src="/Narzo(Hence).webp" alt="Campaign Image" className="w-full rounded-lg" />
+  <img src="/Narzo(Hence).webp" alt="Campaign Image" className="w-full rounded-lg border-4 border-black-300 shadow-md" />
 </div>
 
     <div className="md:w-1/2 p-4">
@@ -261,7 +261,7 @@ const Hero = () => {
  
  <div className="flex flex-col md:flex-row items-center mb-16 max-w-6xl mx-auto">
    <div className="md:w-1/2 p-4">
-  <img src="/KKK(Hence).avif" alt="Campaign Image" className="w-full rounded-lg" />
+  <img src="/KKK(Hence).avif" alt="Campaign Image" className="w-full rounded-lg border-4 border-black-300 shadow-md" />
 </div>
 
     <div className="md:w-1/2 p-4">
@@ -283,8 +283,8 @@ const Hero = () => {
     <span className="block w-full h-1 bg-blue-600 mx-auto mt-2"></span>
   </h2>
 
-  {/* First Scrolling Effect (Above) */}
-  <Marquee speed={50} pauseOnHover gradient={false}>
+
+  <Marquee speed={50} pauseOnHover gradient={true}>
     <img src="/TVF.jpg" alt="Client 1" className="h-16 mx-8" />
     <img src="/Realme.webp" alt="Client 2" className="h-16 mx-8" />
     <img src="/Hotstar.jpeg" alt="Client 3" className="h-16 mx-8" />
@@ -299,7 +299,7 @@ const Hero = () => {
 
 
   <div className="relative mt-12">
-    <Marquee speed={50} pauseOnHover gradient={false} direction="rtl">
+    <Marquee speed={50} pauseOnHover gradient={true} direction="rtl">
       <img src="/pubg.webp" alt="Client 1" className="h-16 mx-8" />
       <img src="/Woodland.png" alt="Client 2" className="h-16 mx-8" />
       <img src="/Sony.png" alt="Client 3" className="h-16 mx-8" />
@@ -320,7 +320,7 @@ const Hero = () => {
     <img 
       src="/WhatsApp Image 2025-06-09 at 12.21.43 PM.jpeg" 
       alt="Contact Us Image" 
-  className="w-[80%] h-auto object-cover rounded-lg shadow-md"
+  className="w-[80%] rounded-lg border-4 border-black-300 shadow-md"
 
 
     />
@@ -339,11 +339,13 @@ const Hero = () => {
    </p>
 
 <button
-  className="px-6 py-3 bg-blue-600 text-white font-bold arrow-cursor rounded-lg hover:bg-blue-700 transition duration-300"
+  className="px-6 py-3 bg-blue-600 text-white font-bold rounded-lg transform transition arrow-cursor duration-300 
+             hover:scale-105 hover:shadow-lg hover:shadow-blue-500/50 active:scale-95 active:shadow-none"
   onClick={() => window.open('https://form.typeform.com/to/Oxph7bfP', '_blank')}
 >
   Get in Touch
 </button>
+
 
 <img 
   src="/QR.png" 
