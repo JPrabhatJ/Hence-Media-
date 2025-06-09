@@ -1,6 +1,6 @@
 
 import { useEffect, useState } from "react";
-import "../css/Footer.css";
+import "../Css/Footer.css";
 
 function Footer() {
   const [visitorsToday, setVisitorsToday] = useState(null);
