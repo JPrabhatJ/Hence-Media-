@@ -194,7 +194,7 @@ const Hero = () => {
   {/* Section 1 */}
    <div className="flex flex-col md:flex-row items-center mb-16 max-w-6xl mx-auto">
    <div className="md:w-1/2 p-4">
-  <img src="/assets/Dhoni.webp" alt="Campaign Image" className="w-full rounded-lg" />
+  <img src="/Dhoni.webp" alt="Campaign Image" className="w-full rounded-lg" />
 </div>
 
     <div className="md:w-1/2 p-4">
@@ -297,14 +297,14 @@ const Hero = () => {
     <img src="/Dream11.jpg" alt="Client 10" className="h-16 mx-8" />
   </Marquee>
 
-  {/* Floating Scrolling Effect Below the Line (Reversed Direction) */}
+
   <div className="relative mt-12">
     <Marquee speed={50} pauseOnHover gradient={false} direction="rtl">
       <img src="/pubg.webp" alt="Client 1" className="h-16 mx-8" />
       <img src="/Woodland.png" alt="Client 2" className="h-16 mx-8" />
       <img src="/Sony.png" alt="Client 3" className="h-16 mx-8" />
       <img src="/Xiaomi-Logo.png" alt="Client 4" className="h-16 mx-8" />
-      <img src="/Tseries.jpg" alt="Client 5" className="h-16 mx-8" />
+      <img src="/assets/Tseries.jpg" alt="Client 5" className="h-16 mx-8" />
       <img src="/Cadbury_Logo.png" alt="Client 6" className="h-16 mx-8" />
       <img src="/Flipkart.png" alt="Client 7" className="h-16 mx-8" />
       <img src="/Loco.jpg" alt="Client 8" className="h-16 mx-8" />
@@ -346,7 +346,7 @@ const Hero = () => {
 </button>
 
 <img 
-  src="/assets/QR.png" 
+  src="/QR.png" 
   alt="qr-image" 
   className="mt-4 mx-auto w-70 h-auto" 
 />
