@@ -194,7 +194,7 @@ const Hero = () => {
   {/* Section 1 */}
    <div className="flex flex-col md:flex-row items-center mb-16 max-w-6xl mx-auto">
    <div className="md:w-1/2 p-4">
-  <img src="src/assets/Dhoni.webp" alt="Campaign Image" className="w-full rounded-lg" />
+  <img src="/assets/Dhoni.webp" alt="Campaign Image" className="w-full rounded-lg" />
 </div>
 
     <div className="md:w-1/2 p-4">
@@ -210,7 +210,7 @@ const Hero = () => {
 
     <div className="flex flex-col md:flex-row items-center mb-16 max-w-6xl mx-auto">
    <div className="md:w-1/2 p-4">
-  <img src="public/BB(Hence).jpg" alt="Campaign Image" className="w-full rounded-lg" />
+  <img src="/BB(Hence).jpg" alt="Campaign Image" className="w-full rounded-lg" />
 </div>
 
     <div className="md:w-1/2 p-4">
@@ -285,31 +285,31 @@ const Hero = () => {
 
   {/* First Scrolling Effect (Above) */}
   <Marquee speed={50} pauseOnHover gradient={false}>
-    <img src="src/assets/TVF.jpg" alt="Client 1" className="h-16 mx-8" />
-    <img src="src/assets/Realme.webp" alt="Client 2" className="h-16 mx-8" />
-    <img src="src/assets/Hotstar.jpeg" alt="Client 3" className="h-16 mx-8" />
-    <img src="src/assets/keshKing.png" alt="Client 4" className="h-16 mx-8" />
-    <img src="src/assets/new Colors.jpg" alt="Client 5" className="h-16 mx-8" />
-    <img src="src/assets/DMF.jpg" alt="Client 6" className="h-16 mx-8" />
-    <img src="src/assets/Acer.jpg" alt="Client 7" className="h-16 mx-8" />
-    <img src="src/assets/primevideo.png" alt="Client 8" className="h-16 mx-8" />
-    <img src="src/assets/Paytm.avif" alt="Client 9" className="h-16 mx-8" />
-    <img src="src/assets/Dream11.jpg" alt="Client 10" className="h-16 mx-8" />
+    <img src="/assets/TVF.jpg" alt="Client 1" className="h-16 mx-8" />
+    <img src="/assets/Realme.webp" alt="Client 2" className="h-16 mx-8" />
+    <img src="/assets/Hotstar.jpeg" alt="Client 3" className="h-16 mx-8" />
+    <img src="/assets/keshKing.png" alt="Client 4" className="h-16 mx-8" />
+    <img src="/assets/new Colors.jpg" alt="Client 5" className="h-16 mx-8" />
+    <img src="/assets/DMF.jpg" alt="Client 6" className="h-16 mx-8" />
+    <img src="/assets/Acer.jpg" alt="Client 7" className="h-16 mx-8" />
+    <img src="/assets/primevideo.png" alt="Client 8" className="h-16 mx-8" />
+    <img src="/assets/Paytm.avif" alt="Client 9" className="h-16 mx-8" />
+    <img src="/assets/Dream11.jpg" alt="Client 10" className="h-16 mx-8" />
   </Marquee>
 
   {/* Floating Scrolling Effect Below the Line (Reversed Direction) */}
   <div className="relative mt-12">
     <Marquee speed={50} pauseOnHover gradient={false} direction="rtl">
-      <img src="src/assets/pubg.webp" alt="Client 1" className="h-16 mx-8" />
-      <img src="src/assets/Woodland.png" alt="Client 2" className="h-16 mx-8" />
-      <img src="src/assets/Sony.png" alt="Client 3" className="h-16 mx-8" />
-      <img src="src/assets/Xiaomi-Logo.png" alt="Client 4" className="h-16 mx-8" />
-      <img src="src/assets/Tseries.jpg" alt="Client 5" className="h-16 mx-8" />
-      <img src="src/assets/Cadbury_Logo.png" alt="Client 6" className="h-16 mx-8" />
-      <img src="src/assets/Flipkart.png" alt="Client 7" className="h-16 mx-8" />
-      <img src="src/assets/Loco.jpg" alt="Client 8" className="h-16 mx-8" />
-      <img src="public/Netflix.jpg" alt="Client 9" className="h-16 mx-8" />
-      <img src="src/assets/cashify.png" alt="Client 10" className="h-16 mx-8" />
+      <img src="/assets/pubg.webp" alt="Client 1" className="h-16 mx-8" />
+      <img src="/assets/Woodland.png" alt="Client 2" className="h-16 mx-8" />
+      <img src="/assets/Sony.png" alt="Client 3" className="h-16 mx-8" />
+      <img src="/assets/Xiaomi-Logo.png" alt="Client 4" className="h-16 mx-8" />
+      <img src="/assets/Tseries.jpg" alt="Client 5" className="h-16 mx-8" />
+      <img src="/assets/Cadbury_Logo.png" alt="Client 6" className="h-16 mx-8" />
+      <img src="/assets/Flipkart.png" alt="Client 7" className="h-16 mx-8" />
+      <img src="/assets/Loco.jpg" alt="Client 8" className="h-16 mx-8" />
+      <img src="/Netflix.jpg" alt="Client 9" className="h-16 mx-8" />
+      <img src="/assets/cashify.png" alt="Client 10" className="h-16 mx-8" />
     </Marquee>
   </div>
 </section>
@@ -318,7 +318,7 @@ const Hero = () => {
    <section id="contact" className="py-16 bg-white text-center flex items-center justify-between">
   <div className="w-1/2 p-4">
     <img 
-      src="public/WhatsApp Image 2025-06-09 at 12.21.43 PM.jpeg" 
+      src="/WhatsApp Image 2025-06-09 at 12.21.43 PM.jpeg" 
       alt="Contact Us Image" 
   className="w-[80%] h-auto object-cover rounded-lg shadow-md"
 
@@ -346,7 +346,7 @@ const Hero = () => {
 </button>
 
 <img 
-  src="src/assets/QR.png" 
+  src="/assets/QR.png" 
   alt="qr-image" 
   className="mt-4 mx-auto w-70 h-auto" 
 />
