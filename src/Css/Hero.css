@@ -1,0 +1,12 @@
+.services {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  padding: 3rem 2rem;
+  margin-top: 80px;
+  background-color: rgb(0, 0, 0); 
+  background-image:
+    linear-gradient(white 1px, transparent 1px), 
+    linear-gradient(90deg, white 1px, transparent 1px); 
+  background-size: 20px 20px;
+}

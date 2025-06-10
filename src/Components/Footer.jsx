@@ -19,11 +19,11 @@ function Footer() {
           <a href='https://medium.com/rta902/from-movies-to-memes-examining-netflixs-social-media-stardom-cf6987d5d79e' target="_blank" rel="noopener noreferrer">MUST READ</a>
       
         </div>
-        <div className="footer-contact">
+        {/* <div className="footer-contact">
           <li>Contact Us - info@hencemedia.in</li>
           <li>Contact - 9876543210</li>
           <li>Address - Palam Vihar, Gurgaon</li>
-        </div>
+        </div> */}
       </div>
 
       <div className="footer-right">
