@@ -4,7 +4,7 @@ import "../Css/Navbar.css";
 function Navbar() {
   return (
     <>
-      <nav className="navbar">
+       <nav className="navbar">
         <a href="#" className="logo">
           <img
             src="/NewLogo.png"
@@ -13,9 +13,12 @@ function Navbar() {
           />
         </a>
 
-                <span className="navbar-text border-black-300 text-2xl ">Because Media + Memes = Great Tool to Control the Mind of the Masses</span> 
+        <img src="/Puneet-BG.png" 
+        alt="Navbar-img" 
+        className="w-30 h-20 mt-4 "/>
+        <span className="navbar-text border-black-600 text-bold  text-10xl ">Because Media + Memes = Great Tool to Control the Mind of the Masses</span>
 
-        <div className="nav-buttons arrow-cursor text xl ">
+        <div className="nav-buttons arrow-cursor text xl underline-green">
           <Link 
             to="services" 
             className="nav-btn arrow-cursor" 

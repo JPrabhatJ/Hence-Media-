@@ -1,6 +1,13 @@
 
 import { useEffect, useState } from "react";
 import "../Css/Footer.css";
+import { FaInstagramSquare } from "react-icons/fa";
+import { FaFacebookSquare } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa6";
+import { BsDiscord } from "react-icons/bs";
+import { FaSquareReddit } from "react-icons/fa6";
+import { FaTwitch } from "react-icons/fa";
 
 function Footer() {
   const [visitorsToday, setVisitorsToday] = useState(null);
@@ -19,11 +26,36 @@ function Footer() {
           <a href='https://medium.com/rta902/from-movies-to-memes-examining-netflixs-social-media-stardom-cf6987d5d79e' target="_blank" rel="noopener noreferrer">MUST READ</a>
       
         </div>
-        {/* <div className="footer-contact">
-          <li>Contact Us - info@hencemedia.in</li>
-          <li>Contact - 9876543210</li>
-          <li>Address - Palam Vihar, Gurgaon</li>
-        </div> */}
+          <div className="socials flex items-center gap-4 text-3xl mt-4">
+          <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer"
+          className="hover:shadow-lg hover:shadow-pink-500/50 transition duration-300 rounded">
+          <FaInstagramSquare />
+          </a>
+          <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"
+          className="hover:shadow-lg hover:shadow-pink-500/50 transition duration-300 rounded">
+          <FaFacebookSquare />
+          </a>
+          <a href="https://www.x.com" target="_blank" rel="noopener noreferrer"
+          className="hover:shadow-lg hover:shadow-pink-500/50 transition duration-300 rounded">
+          <FaTwitter />
+          </a>
+          <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer"
+          className="hover:shadow-lg hover:shadow-pink-500/50 transition duration-300 rounded">
+           <FaYoutube />
+          </a>
+           <a href="https://www.discord.com" target="_blank" rel="noopener noreferrer"
+          className="hover:shadow-lg hover:shadow-pink-500/50 transition duration-300 rounded">
+           <BsDiscord />
+          </a>
+           <a href="https://www.reddit.com" target="_blank" rel="noopener noreferrer"
+          className="hover:shadow-lg hover:shadow-pink-500/50 transition duration-300 rounded">
+          <FaSquareReddit />
+          </a>
+           <a href="https://www.twitch.com" target="_blank" rel="noopener noreferrer"
+          className="hover:shadow-lg hover:shadow-pink-500/50 transition duration-300 rounded">
+          <FaTwitch />
+          </a>
+        </div>
       </div>
 
       <div className="footer-right">
