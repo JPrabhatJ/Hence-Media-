@@ -15,7 +15,7 @@ function Navbar() {
 
                 <span className="navbar-text border-black-300 text-2xl ">Because Media + Memes = Great Tool to Control the Mind of the Masses</span> 
 
-        <div className="nav-buttons arrow-cursor text xl">
+        <div className="nav-buttons arrow-cursor text xl ">
           <Link 
             to="services" 
             className="nav-btn arrow-cursor" 

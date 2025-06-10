@@ -193,7 +193,7 @@ const Hero = () => {
   </h2>
 
   {/* Section 1 */}
-<div className="flex flex-col md:flex-row items-center mb-16 max-w-6xl mx-auto">
+<div className="flex flex-col md:flex-row items-center mb-16 arrow-cursor max-w-6xl mx-auto">
   <style>
     {`
       .flip-container {
@@ -263,7 +263,7 @@ const Hero = () => {
 </div>
 
   {/* Section 2 */}
-<div className="flex flex-col md:flex-row items-center mb-16 max-w-6xl mx-auto">
+<div className="flex flex-col md:flex-row items-center arrow-cursor mb-16 max-w-6xl mx-auto">
   <style>
     {`
       .flip-container {
@@ -333,7 +333,7 @@ const Hero = () => {
 </div>
 
 {/* Section 3 */}
-<div className="flex flex-col md:flex-row items-center mb-16 max-w-6xl mx-auto">
+<div className="flex flex-col md:flex-row items-center arrow-cursor mb-16 max-w-6xl mx-auto">
   <style>
     {`
       .flip-container {
@@ -408,7 +408,7 @@ const Hero = () => {
 
 
   {/* Section 1 */}
-<div className="flex flex-col md:flex-row items-center mb-16 max-w-6xl mx-auto">
+<div className="flex flex-col md:flex-row items-center mb-16 arrow-cursor max-w-6xl mx-auto">
   <style>
     {`
       .flip-container {

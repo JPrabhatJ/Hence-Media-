@@ -144,5 +144,34 @@ body {
     font-size: 0.9rem; /* Adjust navigation link size */
   }
 }
+/* Wavy animation for nav links */
+@keyframes wavy-text {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-2px);
+  }
+  50% {
+    transform: translateY(2px);
+  }
+  75% {
+    transform: translateY(-1px);
+  }
+}
+
+.nav-buttons a {
+  position: relative;
+  color: #00ff66;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: color 0.9s ease;
+  display: inline-block; 
+}
+
+.nav-buttons a:hover {
+  color: #00aaff;
+  animation: wavy-text 0.9s infinite ease-in-out;
+}
 
 
