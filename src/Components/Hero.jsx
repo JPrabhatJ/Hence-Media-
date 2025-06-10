@@ -369,11 +369,11 @@ const Hero = () => {
  </div>
  <div className="md:w-1/2 p-4">
   <h2 className="text-2xl font-bold text-center mb-12 relative inline-block">
-   <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-600">YOUR NEXT AD CAMPAIGN</span>🫡
+   <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-600">YOUR NEXT CAMPAIGN</span>🫡
    <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-full h-1 bg-red-600 shadow-xl rounded-lg mt-2"></span>
   </h2>
   <p className="text-gray-700">
-   "Your next viral ad campaign can be yours! We'll make sure your campaign surpasses all your past reach. With our expertise, extensive following, and hook-grabbing memes, we promise to deliver a handsome reach."
+   "The next viral ad campaign on internet can be yours! We'll make sure your campaign surpasses all your past reaches. With our expertise, extensive mass following, and hook-grabbing memes, we promise to deliver a handsome reach."
   </p>
      <button
   className="px-6 py-3 bg-blue-600 text-white font-bold rounded-lg mt-4 transform transition arrow-cursor duration-300 
