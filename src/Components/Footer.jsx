@@ -8,6 +8,7 @@ import { FaYoutube } from "react-icons/fa6";
 import { BsDiscord } from "react-icons/bs";
 import { FaSquareReddit } from "react-icons/fa6";
 import { FaTwitch } from "react-icons/fa";
+import { FaExternalLinkAlt } from 'react-icons/fa';
 
 function Footer() {
   const [visitorsToday, setVisitorsToday] = useState(null);
@@ -23,8 +24,27 @@ function Footer() {
         <div className="social-links">
           <a href='https://www.sci-tech-today.com/stats/memes-statistics-updated/' target="_blank" rel="noopener noreferrer">MEME INDUSTRY</a>
           <a href='https://www.forbes.com/sites/theyec/2018/07/30/understanding-influencer-marketing-and-why-it-is-so-effective/' target="_blank" rel="noopener noreferrer">INFLUENCER MARKETING</a>
-          <a href='https://medium.com/rta902/from-movies-to-memes-examining-netflixs-social-media-stardom-cf6987d5d79e' target="_blank" rel="noopener noreferrer">MUST READ</a>
-      
+          <a href='https://medium.com/rta902/from-movies-to-memes-examining-netflixs-social-media-stardom-cf6987d5d79e' target="_blank" rel="noopener noreferrer">MUST READ </a>
+<a
+  href="https://form.typeform.com/to/wmlQCmvj"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="text-white font-bold text-lg relative" 
+    style={{
+  // fixed textShadow
+    color: '#00f0ff',
+  }} 
+>
+  HIRING
+  <img
+    src="/New BG.png"  
+    alt="New"
+    className="absolute -top-2 -right-10 w-10 h-5 mb-4 mt-1"
+    style={{ display: 'inline-block' }}
+  />
+</a>
+
+
         </div>
           <div className="socials flex items-center gap-4 text-3xl mt-4">
           <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer"

@@ -191,7 +191,7 @@ const Hero = () => {
 <section id="campaign" className="py-16 bg-white">
   <h2 className="text-4xl font-bold text-center mb-12 relative">
   PR & Campaigns 🔥
-      <span className="block w-full h-1 bg-blue-600 mx-auto mt-2"></span>
+      <span className="block w-full h-1 bg-green-600 mx-auto mt-2"></span>
   </h2>
 
   {/* Section 1 */}
@@ -247,7 +247,7 @@ const Hero = () => {
           className="w-full h-full object-cover rounded-lg"
         />
       </div>
-           <h4 className='text-2xl font-bold text-center'>Featuring Elvish Yadav & Abhishek Malhaan</h4>
+           <h4 className='text-2xl font-bold text-center'>Elvish Yadav & Abhishek Malhaan</h4>
     </div>
   </div>
 
@@ -391,10 +391,11 @@ const Hero = () => {
 <section className="py-16 bg-white">
   <h2 className="text-4xl font-bold text-center mb-6 relative">
     Brands Who Trusted Us 🫶🏼
-    <span className="block w-full h-1 bg-blue-600 mx-auto mt-2"></span>
+    <span className="block w-full h-1 bg-green-600 mx-auto mt-2"></span>
   </h2>
 
-  <Marquee speed={150} pauseOnHover gradient={true}>
+  <div className="bg--600 p-4 rounded-lg">
+  <Marquee speed={150} pauseOnHover gradient={false}>
     {[
       "/TVF.jpg", "/Realme.webp", "/Hotstar.jpeg", "/keshKing.png",
       "/new colors.jpg", "/DMF.jpg", "/Acer.jpg", "/primevideo.png",
@@ -407,7 +408,7 @@ const Hero = () => {
   </Marquee>
 
   <div className="relative mt-5">
-    <Marquee speed={150} pauseOnHover gradient={true} direction="rtl">
+    <Marquee speed={150} pauseOnHover gradient={false} direction="rtl">
       {[
         "/pubg.webp", "/Woodland.png", "/Sony.png", "/Xiaomi-Logo.png",
         "/Tseries.jpg", "/Cadbury_Logo.png", "/Flipkart.png",
@@ -419,6 +420,8 @@ const Hero = () => {
       ))}
     </Marquee>
   </div>
+</div>
+
 </section>
 
 
@@ -466,9 +469,7 @@ const Hero = () => {
 </div>
 
 </section>
-
-
-    
+ 
     </div>
   );
 };

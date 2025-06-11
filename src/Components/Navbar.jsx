@@ -4,7 +4,7 @@ import "../Css/Navbar.css";
 function Navbar() {
   return (
     <>
-       <nav className="navbar">
+       <nav className="navbar ">
         <a href="#" className="logo">
           <img
             src="/NewLogo.png"
