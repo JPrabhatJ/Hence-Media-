@@ -1,7 +1,6 @@
 import React from 'react';
 import Marquee from 'react-fast-marquee';
 import { GrLinkNext } from "react-icons/gr";
-import { IoMdContacts } from "react-icons/io";
 import 'react-toastify/dist/ReactToastify.css';
 
 const Hero = () => {
@@ -389,7 +388,7 @@ const Hero = () => {
              flex items-center gap-2"
   onClick={() => window.open("https://form.typeform.com/to/Oxph7bfP", '_blank')}
 >
-  Contact Now <IoMdContacts />
+  Contact Now <GrLinkNext />
 </button>
  </div>
 </div>
