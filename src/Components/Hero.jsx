@@ -1,47 +1,40 @@
 import React from 'react';
 import Marquee from 'react-fast-marquee';
-import { FaExternalLinkAlt } from 'react-icons/fa';
+import { GrLinkNext } from "react-icons/gr";
 import { IoMdContacts } from "react-icons/io";
-
+import 'react-toastify/dist/ReactToastify.css';
 
 const Hero = () => {
-  return (
-    <div className="w-full">
-
-      <section className="w-full h-screen bg-black shadow-md border border-green-500">
-        <video autoPlay muted loop playsinline className="w-full h-full object-cover">
+ return (
+  <div className="w-full">
+   <section className="relative w-full h-screen bg-black shadow-md border border-green-500">
+        <video autoPlay muted loop playsInline className="w-full h-full object-cover">
           <source src="/HeroBanner.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </section>
       
-
+{/*Our Services */}
 <section id="services" className="py-16 bg-white">
   <h2 className="text-4xl font-bold text-center mb-12 relative">
     Our Services 🚀
       <span className="block w-full h-1 bg-blue-600 mx-auto mt-2"></span>
   </h2>
 
-
-
-
-
+{/*Meme Marketing */}
 <div className="flex flex-col md:flex-row items-center mb-16 max-w-6xl mx-auto">
   <div className="md:w-1/2 p-4">
 <h2 className="text-2xl font-bold text-center mb-12 relative inline-block">
   <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-600">MEME MARKETING</span> 🤩
   <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-full h-1 bg-blue-600 shadow-xl rounded-lg mt-2"></span>
 </h2>
-
-
-
-    <ul className="list-disc pl-5 text-gray-700">
+<ul className="list-disc pl-5 text-gray-700">
       <li>Vast Reach: Access to over 400M+ followers on Instagram and 200M+ followers on Facebook.</li>
       <li>Trendsetter: Capability to make any content trend in the meme market.</li>
       <li>Diverse Audience: Extensive network across multiple categories and niches.</li>
       <li>Engaging Content: Expertly crafted memes to boost brand visibility and engagement.</li>
       <li>Proven Impact: Track record of successful campaigns that resonate with audiences.</li>
-    </ul>
+</ul>
   </div>
   <div className="md:w-1/2 p-4">
     <video autoPlay muted loop playsinline className="w-full rounded-lg border-4 border-black-300 shadow-md">
@@ -51,19 +44,19 @@ const Hero = () => {
   </div>
 </div>
 
+{/*Influencer Marketing */}
  <div className="flex flex-col md:flex-row items-center mb-16 max-w-6xl mx-auto">
   <div className="md:w-1/2 p-4">
   <h2 className="text-2xl font-bold text-center mb-12 relative inline-block">
   <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-600">INFLUENCER MARKETING</span> 👑
   <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-full h-1 bg-blue-600 shadow-xl rounded-lg mt-2"></span>
 </h2>
- 
-    <ul className="list-disc pl-5 text-gray-700">
+ <ul className="list-disc pl-5 text-gray-700">
       <li>Diverse Network: Access to influencers across all categories, including tech, travel, vlogs, art, food, and more.</li>
       <li>High-Impact Collaborations: Partnerships with top-tier influencers to maximize reach and engagement.</li>
       <li>Authentic Content: Focus on creating genuine content that resonates with target audiences.</li>
       <li>Custom Campaigns: Tailored influencer strategies to align with your brand’s unique goals and messaging.</li>
-      </ul>
+ </ul>
   </div>
     <div className="md:w-1/2 p-4">
     <video autoPlay muted loop playsinline className="w-full rounded-lg border-4 border-black-300 shadow-md">
@@ -73,19 +66,20 @@ const Hero = () => {
   </div>
 </div>
 
+{/*Podcast Marketing */}
 <div className="flex flex-col md:flex-row items-center mb-16 max-w-6xl mx-auto">
   <div className="md:w-1/2 p-4">
 <h2 className="text-2xl font-bold text-center mb-12 relative inline-block">
   <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-600">PODCAST MARKETING</span> 🎙️
   <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-full h-1 bg-blue-600 shadow-xl rounded-lg mt-2"></span>
 </h2>
-    <ul className="list-disc pl-5 text-gray-700">
+<ul className="list-disc pl-5 text-gray-700">
       <li>Viral Promotion: Boost your podcast’s visibility with engaging marketing reels and creative content.</li>
       <li>Cross-Platform Engagement: Enhance your podcast’s presence across social media and digital platforms.</li>
       <li>Comprehensive Support: From promotion to provide end-to-end support for successful podcast marketing.</li>
       <li>Strategic Placements: Get featured on popular podcast platforms and channels to reach a wider audience.</li>
-    </ul>
-  </div>
+</ul>
+</div>
   <div className="md:w-1/2 p-4">
     <video autoPlay muted loop playsinline className="w-full rounded-lg border-4 border-black-300 shadow-md">
       <source src="/PM(Hence).mp4" type="video/mp4" />
@@ -94,6 +88,7 @@ const Hero = () => {
   </div>
 </div>
 
+{/*Twitter Marketing */}
 <div className="flex flex-col md:flex-row items-center mb-16 max-w-6xl mx-auto">
   <div className="md:w-1/2 p-4">
 <h2 className="text-2xl font-bold text-center mb-12 relative inline-block">
@@ -116,6 +111,7 @@ const Hero = () => {
   </div>
 </div>
 
+{/*Music Marketing */}
 <div className="flex flex-col md:flex-row items-center mb-16 max-w-6xl mx-auto">
   <div className="md:w-1/2 p-4">
  <h2 className="text-2xl font-bold text-center mb-12 relative inline-block">
@@ -136,19 +132,20 @@ const Hero = () => {
   </div>
 </div>
 
+{/*PR Publishing */}
  <div className="flex flex-col md:flex-row items-center mb-16 max-w-6xl mx-auto">
   <div className="md:w-1/2 p-4">
    <h2 className="text-2xl font-bold text-center mb-12 relative inline-block">
   <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-600">PR PUBLISHING </span> 🤑
   <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-full h-1 bg-blue-600 shadow-xl rounded-lg mt-2"></span>
 </h2>
-    <ul className="list-disc pl-5 text-gray-700">
+<ul className="list-disc pl-5 text-gray-700">
       <li>Extensive Media Network: Collaborations with multiple major news brands for widespread reach.</li>
       <li>Global Coverage: Access to both national and international news media outlets.</li>
       <li>High Visibility: Partnerships with top news sites that have the highest web traffic.</li>
       <li>Targeted Distribution: Strategic placements to ensure your message reaches the right audience.</li>
       <li>Proven Success: Consistently driving impactful media coverage and enhancing brand credibility.</li>
-    </ul>
+</ul>
   </div>
   <div className="md:w-1/2 p-4">
     <video autoPlay muted loop playsinline className="w-full rounded-lg border-4 border-black-300 shadow-md">
@@ -158,19 +155,19 @@ const Hero = () => {
   </div>
 </div>
 
-
+{/*Account Verification */}
 <div className="flex flex-col md:flex-row items-center mb-16 max-w-6xl mx-auto">
   <div className="md:w-1/2 p-4">
  <h2 className="text-2xl font-bold text-center mb-12 relative inline-block">
   <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-600">ACCOUNT VERIFICATION</span> ✅
   <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-full h-1 bg-blue-600 shadow-xl rounded-lg mt-2"></span>
 </h2>
-    <ul className="list-disc pl-5 text-gray-700">
+<ul className="list-disc pl-5 text-gray-700">
       <li>Official Verification: Obtain the verification badge for your business on Meta platforms like Facebook and Instagram</li>
       <li>Permanent Verification: Secure permanent verification status for lasting credibility on Facebook and Instagram.</li>
       <li>WhatsApp Verification: Secure the green verification badge for your brand’s WBhatsApp Business account.</li>
       <li>Enhanced Credibility: Boost your brand’s trustworthiness and authority with verified status.</li>
-      </ul>
+</ul>
   </div>
     <div className="md:w-1/2 p-4">
     <video autoPlay muted loop playsinline className="w-full rounded-lg border-4 border-black-300 shadow-md">
@@ -179,15 +176,9 @@ const Hero = () => {
     </video>
   </div>
 </div>
-
-
-
-
-
-  
 </section>
 
-
+{/*PR Section*/}
 <section id="campaign" className="py-16 bg-white">
   <h2 className="text-4xl font-bold text-center mb-12 relative">
   PR & Campaigns 🔥
@@ -197,7 +188,7 @@ const Hero = () => {
   {/* Section 1 */}
 <div className="flex flex-col md:flex-row items-center mb-16 max-w-6xl mx-auto">
  
-  <div className="w-full md:w-1/2 p-4">
+<div className="w-full md:w-1/2 p-4">
     <div className="relative w-full h-[250px] md:h-[350px] flipper rounded-lg border-4 shadow-md">
       <div className="front">
         <img
@@ -208,30 +199,31 @@ const Hero = () => {
       </div>
            <h4 className='text-2xl font-bold text-center'>Featuring MS Dhoni</h4>
     </div>
-  </div>
+</div>
 
-  <div className="md:w-1/2 p-4">
-    <h2 className="text-2xl font-bold text-center mb-12 relative mb-10 inline-block">
-      <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-600">
-        BOLE JO KOYAL TREND
-      </span>
-      ☠️
-      <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-full h-1 bg-red-600 shadow-xl rounded-lg mt-2"></span>
+<div className="md:w-1/2 p-4">
+<h2 className="text-2xl font-bold text-center mb-12 relative inline-block">
+  <span
+    className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-600"
+    style={{
+      textDecorationLine: 'underline',
+      textDecorationStyle: 'wavy',
+      textDecorationColor: '#3b82f6' 
+    }}>
+    BOLE JO KOYAL TREND 
+  </span> ☠️
     </h2>
-
-    <p className="text-gray-700 mb-5 ">
+ <p className="text-gray-700 mb-5 ">
       "We all know that Dhoni himself is a brand image, and when the meme tagline 'Bole Jo Koyal' was created about him, it clearly showcased how powerful the meme industry is and the massive impact it can have. The best part is, we worked with E-Motorad to bring this to life, and it successfully created a buzz on the internet. This proves that memes are one of the best things to have ever happened on the internet."
     </p>
-      <button
+ <button
   className="px-6 py-3 bg-red-600 text-white font-bold rounded-lg mt-4 transform transition arrow-cursor duration-300 
              hover:scale-105 hover:shadow-lg hover:shadow-pink-500/50 active:scale-95 active:shadow-none 
              flex items-center gap-2"
-  onClick={() => window.open("https://www.instagram.com/reel/C5XhwvfRchV/?utm_source=ig_web_copy_link&igsh=MW5mZnd6Z3M5OXd2Ng==", '_blank')}
->
-  See Our Work <FaExternalLinkAlt />
+  onClick={() => window.open("https://www.instagram.com/reel/C5XhwvfRchV/?utm_source=ig_web_copy_link&igsh=MW5mZnd6Z3M5OXd2Ng==", '_blank')}>   See Our Work <GrLinkNext />
 </button>
 
-  </div>
+</div>
 </div>
 
   {/* Section 2 */}
@@ -252,12 +244,16 @@ const Hero = () => {
   </div>
 
   <div className="md:w-1/2 p-4">
-    <h2 className="text-2xl font-bold text-center mb-12 relative mb-10 inline-block">
-      <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-600">
-        BIG BOSS TWITTER TREND
-      </span>
-      😈
-      <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-full h-1 bg-red-600 shadow-xl rounded-lg mt-2"></span>
+<h2 className="text-2xl font-bold text-center mb-12 relative inline-block">
+  <span
+    className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-600"
+    style={{
+      textDecorationLine: 'underline',
+      textDecorationStyle: 'wavy',
+      textDecorationColor: '#3b82f6' 
+    }}>
+    BIG BOSS TWITTER TREND
+  </span> 😈
     </h2>
 
     <p className="text-gray-700 mb-5">
@@ -269,7 +265,7 @@ const Hero = () => {
              flex items-center gap-2"
   onClick={() => window.open("https://www.instagram.com/reel/Cvms0Z7rsgl/?utm_source=ig_web_copy_link", '_blank')}
 >
-  See Our Work <FaExternalLinkAlt />
+  See Our Work <GrLinkNext />
 </button>
   </div>
 </div>
@@ -292,12 +288,16 @@ const Hero = () => {
   </div>
 
   <div className="md:w-1/2 p-4">
-    <h2 className="text-2xl font-bold text-center mb-12 relative inline-block">
-      <span className="text-transparent bg-clip-text bg-gradient-to-r mb-10 from-blue-500 to-purple-600">
-        PANCHAYAT
-      </span>
-      😍
-      <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-full h-1 bg-red-600 shadow-xl rounded-lg mt-2"></span>
+ <h2 className="text-2xl font-bold text-center mb-12 relative inline-block">
+  <span
+    className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-600"
+    style={{
+      textDecorationLine: 'underline',
+      textDecorationStyle: 'wavy',
+      textDecorationColor: '#3b82f6' 
+    }}>
+    PANCHAYAT
+  </span> 😍
     </h2>
       <p className="text-gray-700 mb-5">
      "Leveraging the power of influencers and meme pages led to massive engagement. The campaign’s center piece was their dialogs & satirical punchlines, launched through Reels and Statics which resonated deeply with audiences across through the country. By tapping into an extensive network with a follower base of 80 million, (Hence Media) achieved a staggering reach of 140 million+."
@@ -308,7 +308,7 @@ const Hero = () => {
              flex items-center gap-2"
   onClick={() => window.open("https://www.instagram.com/reel/DH-ja6Isrw5/?utm_source=ig_web_copy_link&igsh=MWlraWlxajNtcDF2eg==", '_blank')}
 >
-  See Our Work <FaExternalLinkAlt />
+  See Our Work <GrLinkNext />
 </button>
 
   </div>
@@ -316,7 +316,7 @@ const Hero = () => {
 
 
 
-  {/* Section 1 */}
+  {/* Section 4 */}
 <div className="flex flex-col md:flex-row items-center mb-16  max-w-6xl mx-auto">
   
  <div className="w-full md:w-1/2 p-4">
@@ -332,14 +332,17 @@ const Hero = () => {
     </div>
   </div>
   <div className="md:w-1/2 p-4">
-    <h2 className="text-2xl font-bold text-center mb-15 relative inline-block">
-      <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-600">
-       SAMSUNG PHONE LAUNCH
-      </span>
-      🤩
-      <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-full h-1 bg-red-600 shadow-xl rounded-lg mt-2"></span>
+  <h2 className="text-2xl font-bold text-center mb-12 relative inline-block">
+  <span
+    className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-600"
+    style={{
+      textDecorationLine: 'underline',
+      textDecorationStyle: 'wavy',
+      textDecorationColor: '#3b82f6' 
+    }}>
+    SAMSUNG PHONE LAUNCH
+  </span> 🤩
     </h2>
-
     <p className="text-gray-700 mb-5">
       "We worked with current internet's sensation PURAV JHA who pulled off this mobile marketing very well with dialogs from another meme trend, "Teri Jabaan bohot chalti hai surya". With a whooping 2crore+ views this campaign went successful."
     </p>
@@ -355,23 +358,28 @@ const Hero = () => {
     )
   }
 >
-  See Our Work <FaExternalLinkAlt />
+  See Our Work <GrLinkNext />
 </button>
 
   </div>
 </div>
  
-
-
-<div className="flex flex-col md:flex-row items-center mb-16 max-w-6xl mx-auto">
+ <div className="flex flex-col md:flex-row items-center mb-16 max-w-6xl mx-auto">
  <div className="md:w-1/2 p-4 relative">
   <img src="/User.webp" alt="Campaign Image" className="w-full rounded-lg border-4 border-black-300 shadow-md" />
  </div>
  <div className="md:w-1/2 p-4">
-  <h2 className="text-2xl font-bold text-center mb-12 relative inline-block">
-   <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-600">YOUR NEXT CAMPAIGN</span>🫡
-   <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-full h-1 bg-red-600 shadow-xl rounded-lg mt-2"></span>
-  </h2>
+<h2 className="text-2xl font-bold text-center mb-12 relative inline-block">
+  <span
+    className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-600"
+    style={{
+      textDecorationLine: 'underline',
+      textDecorationStyle: 'wavy',
+      textDecorationColor: '#3b82f6' 
+    }}>
+    YOUR NEXT VIRAL CAMPAIGN
+  </span> 🫡
+    </h2>
   <p className="text-gray-700">
    "The next viral ad campaign on internet can be yours! We'll make sure your campaign surpasses all your past reaches. With our expertise, extensive mass following, and hook-grabbing memes, we promise to deliver a handsome reach."
   </p>
@@ -387,7 +395,7 @@ const Hero = () => {
 </div>
 </section>
 
-
+{/*Clients Section */}
 <section className="py-16 bg-white">
   <h2 className="text-4xl font-bold text-center mb-6 relative">
     Brands Who Trusted Us 🫶🏼
@@ -423,54 +431,34 @@ const Hero = () => {
 </div>
 
 </section>
-
-
-
-   <section id="contact" className="py-16 bg-white text-center flex items-center justify-between">
+<section id="contact" className="py-16 bg-white text-center flex items-center justify-between">
   <div className="w-1/2 p-4">
     <img 
       src="/WhatsApp Image 2025-06-09 at 12.21.43 PM.jpeg" 
       alt="Contact Us Image" 
-  className="w-[80%] rounded-lg border-4 ml-30 border-black-300 shadow-md"
-
-
-    />
-  </div>
-
-  
-
- <div className="w-1/2 p-4">
+  className="w-[80%] rounded-lg border-4 ml-30 border-black-300 shadow-md"/>
+</div>
+<div className="w-1/2 p-4">
    <h2 className="text-2xl font-bold text-center mb-12 relative inline-block">
   <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-600">CONTACT US NOW</span>
   <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-full h-1 bg-red-600 shadow-xl rounded-lg mt-2"></span>
 </h2>
-  
-  <p className="text-lg text-gray-700 mb-6">
+ <p className="text-lg text-gray-700 mb-6">
    "Don't hesitate to contact us—no ifs, ands, or buts. We've successfully launched many campaigns in the past, and we deliver exceptional services even on a budget. Join us today!"
    </p>
-
-
 <button
   className="px-6 py-3 bg-blue-600 text-white font-bold rounded-lg transform transition arrow-cursor duration-300 
              hover:scale-105 hover:shadow-lg hover:shadow-blue-500/50 active:scale-95 active:shadow-none"
-  onClick={() => window.open('https://form.typeform.com/to/Oxph7bfP', '_blank')}
->
-  Get in Touch
+  onClick={() => window.open('https://form.typeform.com/to/Oxph7bfP', '_blank')} >  Get in Touch
 </button>
-
-
 <img 
   src="/QR.png" 
   alt="qr-image" 
   className="mt-4 mx-auto w-70 h-auto" 
 />
-
-
 </div>
-
 </section>
- 
-    </div>
+ </div>   
   );
 };
 

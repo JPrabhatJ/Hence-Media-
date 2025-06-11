@@ -24,7 +24,7 @@ function Footer() {
         <div className="social-links">
           <a href='https://www.sci-tech-today.com/stats/memes-statistics-updated/' target="_blank" rel="noopener noreferrer">MEME INDUSTRY</a>
           <a href='https://www.forbes.com/sites/theyec/2018/07/30/understanding-influencer-marketing-and-why-it-is-so-effective/' target="_blank" rel="noopener noreferrer">INFLUENCER MARKETING</a>
-          <a href='https://medium.com/rta902/from-movies-to-memes-examining-netflixs-social-media-stardom-cf6987d5d79e' target="_blank" rel="noopener noreferrer">MUST READ </a>
+          <a href='https://medium.com/rta902/from-movies-to-memes-examining-netflixs-social-media-stardom-cf6987d5d79e' target="_blank" rel="noopener noreferrer">CASE STUDY</a>
 <a
   href="https://form.typeform.com/to/wmlQCmvj"
   target="_blank"
