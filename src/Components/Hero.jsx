@@ -185,7 +185,7 @@ const Hero = () => {
 </section>
 
 {/*PR Section*/}
-<section className="py-16 bg-white">
+<section id="campaign" className="py-16 bg-white">
 <h2 className="text-4xl font-bold text-center mb-6 relative flex justify-center items-center gap-2">
   PR and Campaigns
   <img 

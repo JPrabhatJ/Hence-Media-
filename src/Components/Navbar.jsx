@@ -10,9 +10,9 @@ function Navbar() {
   };
 
   return (
-    <nav className="navbar">
+    <nav className="navbar ">
       <a href="#" className="logo">
-        <img src="/NewLogo.png" alt="Logo" className="navbar-logo" />
+        <img src="/NewLogo.png" alt="Logo" className="navbar-logo absolute -bottom-1" />
       </a>
 
       <img src="/Puneet-BG.png" alt="Navbar-img" className="w-30 h-20 mt-4" />
