@@ -21,11 +21,16 @@ const Hero = () => {
       </section>
       
 {/*Our Services */}
-<section id="services" className="py-16 bg-white">
-  <h2 className="text-4xl font-bold text-center mb-12 relative">
-    Our Services 🚀
-      <span className="block w-full h-1 bg-green-600 mx-auto mt-2"></span>
-  </h2>
+<section id="services" className="py-16 bg-white ">
+<h2 className="text-4xl font-bold text-center mb-2 relative flex justify-center items-center gap-2">
+  Our Services
+  <img 
+    src="/AG(BG).png" 
+    alt="Banrakas" 
+    className="w-40 h-30 mt-3"
+  />
+  <span className="block w-full h-1 bg-green-600 mx-auto mt-2 absolute -bottom-1 left-0"></span>
+</h2>
 
 {/*Meme Marketing */}
 <div className="flex flex-col md:flex-row items-center mb-16 max-w-6xl mx-auto">
@@ -406,12 +411,16 @@ const Hero = () => {
 </div>
 </section>
 
-{/*Clients Section */}
-<section className="py-16 bg-white">
-  <h2 className="text-4xl font-bold text-center mb-6 relative">
-    Brands Who Trusted Us 🫶🏼
-    <span className="block w-full h-1 bg-green-600 mx-auto mt-2"></span>
-  </h2>
+<section id="campaign" className="py-16 bg-white">
+<h2 className="text-4xl font-bold text-center mb-6 relative flex justify-center items-center gap-2">
+  Our Clients
+    <img 
+    src="/AB(BG).png" 
+    alt="Banrakas" 
+    className="w-40 h-30 mt-3"
+  />
+  <span className="block w-full h-1 bg-green-600 mx-auto mt-2 absolute -bottom-1 left-0"></span>
+</h2>
 
   <div className="bg--600 p-4 rounded-lg">
   <Marquee speed={150} pauseOnHover gradient={false}>
@@ -443,7 +452,9 @@ const Hero = () => {
   </div>
 </div>
 
-{/* Featured Services Grid (3x2) */}
+
+</section>
+
 <section className="py-16 bg-white">
 <h2 className="text-4xl font-bold text-center mb-6 relative flex justify-center items-center gap-2">
   Why Choose Us
@@ -495,10 +506,8 @@ const Hero = () => {
   </div>
 </section>
 
+{/*Clients Section */}
 
-  <span className="block w-full h-1 bg-green-600 mx-auto mt-2"></span>
-
-</section>
 <section id="contact" className="py-16 bg-white text-center flex items-center justify-between">
   <div className="w-1/2 p-4">
     <img 
