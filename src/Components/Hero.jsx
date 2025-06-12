@@ -14,7 +14,7 @@ const Hero = () => {
  return (
   <div className="w-full">
    <section className="relative w-full h-screen bg-black shadow-md border border-green-500">
-        <video autoPlay muted loop playsInline className="w-full h-full object-cover">
+        <video autoPlay muted loop className="w-full h-full object-cover">
           <source src="/HeroBanner.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
@@ -48,7 +48,7 @@ const Hero = () => {
 </ul>
   </div>
   <div className="md:w-1/2 p-4">
-    <video autoPlay muted loop playsinline className="w-full rounded-lg border-4 border-black-300 shadow-md">
+    <video autoPlay muted loop  className="w-full rounded-lg border-4 border-black-300 shadow-md">
       <source src="/MM(Hence).mp4" type="video/mp4" />
       Your browser does not support the video tag.
     </video>
@@ -70,7 +70,7 @@ const Hero = () => {
  </ul>
   </div>
     <div className="md:w-1/2 p-4">
-    <video autoPlay muted loop playsinline className="w-full rounded-lg border-4 border-black-300 shadow-md">
+    <video autoPlay muted loop className="w-full rounded-lg border-4 border-black-300 shadow-md">
       <source src="/IM(Hence).mp4" type="video/mp4" />
       Your browser does not support the video tag.
     </video>
@@ -92,7 +92,7 @@ const Hero = () => {
 </ul>
 </div>
   <div className="md:w-1/2 p-4">
-    <video autoPlay muted loop playsinline className="w-full rounded-lg border-4 border-black-300 shadow-md">
+    <video autoPlay muted loop className="w-full rounded-lg border-4 border-black-300 shadow-md">
       <source src="/PM(Hence).mp4" type="video/mp4" />
       Your browser does not support the video tag.
     </video>
@@ -115,7 +115,7 @@ const Hero = () => {
       </ul>
   </div>
     <div className="md:w-1/2 p-4">
-    <video autoPlay muted loop playsinline className="w-full rounded-lg border-4 border-black-300 shadow-md">
+    <video autoPlay muted loop className="w-full rounded-lg border-4 border-black-300 shadow-md">
       <source src="/X(Hence).mp4" type="video/mp4" />
       Your browser does not support the video tag.
     </video>
@@ -136,7 +136,7 @@ const Hero = () => {
       </ul>
   </div>
    <div className="md:w-1/2 p-4">
-    <video autoPlay muted loop playsinline className="w-full rounded-lg border-4 border-black-300 shadow-md">
+    <video autoPlay muted loop className="w-full rounded-lg border-4 border-black-300 shadow-md">
       <source src="/MT(Hence).mp4" type="video/mp4" />
       Your browser does not support the video tag.
     </video>
@@ -159,7 +159,7 @@ const Hero = () => {
 </ul>
   </div>
   <div className="md:w-1/2 p-4">
-    <video autoPlay muted loop playsinline className="w-full rounded-lg border-4 border-black-300 shadow-md">
+    <video autoPlay muted loop className="w-full rounded-lg border-4 border-black-300 shadow-md">
       <source src="/PR(Hence).mp4" type="video/mp4" />
       Your browser does not support the video tag.
     </video>
@@ -181,7 +181,7 @@ const Hero = () => {
 </ul>
   </div>
     <div className="md:w-1/2 p-4">
-    <video autoPlay muted loop playsinline className="w-full rounded-lg border-4 border-black-300 shadow-md">
+    <video autoPlay muted loop className="w-full rounded-lg border-4 border-black-300 shadow-md">
       <source src="/AV(Hence).mp4" type="video/mp4" />
       Your browser does not support the video tag.
     </video>
@@ -500,7 +500,9 @@ const Hero = () => {
 
     {/* Card 6 */}
     <div className="bg-white border-2 border-gray-200 rounded-xl shadow-lg p-6 hover:shadow-green-400 transition">
-      <h3 className="text-xl font-semibold mb-4">Partnership Offers<FaHandshake /></h3>
+      <h3 className="text-xl font-semibold mb-4">Partnership Offers
+        <FaHandshake />
+      </h3>
       <p className="text-gray-600">"Choose us once, and we’ll make sure you partner with us again—with added benefits and exclusive discounts for your next campaign."</p>
     </div>
   </div>
