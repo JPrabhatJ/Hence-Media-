@@ -19,6 +19,7 @@ body {
   box-sizing: border-box;
   background-color: rgba(0, 0, 0, 0.3); 
   backdrop-filter: blur(8px); 
+ 
 }
 
 .logo,
@@ -174,4 +175,39 @@ body {
   animation: wavy-text 0.9s infinite ease-in-out;
 }
 
+.hamburger {
+  display: none;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  color: #00ff66;
+  cursor: pointer;
+  z-index: 1100;
+}
 
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+  }
+
+  .nav-buttons {
+    display: none;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.95);
+    width: 100%;
+    padding: 1rem 0;
+    position: absolute;
+    top: 100%; /* below navbar */
+    left: 0;
+    z-index: 1000;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  .nav-buttons.open {
+    display: flex;
+  }
+}

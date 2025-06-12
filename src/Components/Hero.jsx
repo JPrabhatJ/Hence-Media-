@@ -1,7 +1,14 @@
 import React from 'react';
 import Marquee from 'react-fast-marquee';
 import { GrLinkNext } from "react-icons/gr";
-import 'react-toastify/dist/ReactToastify.css';
+import { FaPenAlt } from "react-icons/fa";
+import { GiReceiveMoney } from "react-icons/gi";
+import { IoTime } from "react-icons/io5";
+import { MdOutlineMediation } from "react-icons/md";
+import { IoStatsChart } from "react-icons/io5";
+import { FaHandshake } from "react-icons/fa6";
+
+
 
 const Hero = () => {
  return (
@@ -17,7 +24,7 @@ const Hero = () => {
 <section id="services" className="py-16 bg-white">
   <h2 className="text-4xl font-bold text-center mb-12 relative">
     Our Services 🚀
-      <span className="block w-full h-1 bg-blue-600 mx-auto mt-2"></span>
+      <span className="block w-full h-1 bg-green-600 mx-auto mt-2"></span>
   </h2>
 
 {/*Meme Marketing */}
@@ -178,11 +185,16 @@ const Hero = () => {
 </section>
 
 {/*PR Section*/}
-<section id="campaign" className="py-16 bg-white">
-  <h2 className="text-4xl font-bold text-center mb-12 relative">
-  PR & Campaigns 🔥
-      <span className="block w-full h-1 bg-green-600 mx-auto mt-2"></span>
-  </h2>
+<section className="py-16 bg-white">
+<h2 className="text-4xl font-bold text-center mb-6 relative flex justify-center items-center gap-2">
+  PR and Campaigns
+  <img 
+    src="/Banrakas(BG).png" 
+    alt="Banrakas" 
+    className="w-40 h-30 mt-3"
+  />
+  <span className="block w-full h-1 bg-green-600 mx-auto mt-2 absolute -bottom-1 left-0"></span>
+</h2>
 
   {/* Section 1 */}
 <div className="flex flex-col md:flex-row items-center mb-16 max-w-6xl mx-auto">
@@ -413,6 +425,8 @@ const Hero = () => {
       </div>
     ))}
   </Marquee>
+  {/*Clients Section */}
+
 
   <div className="relative mt-5">
     <Marquee speed={150} pauseOnHover gradient={false} direction="rtl">
@@ -428,6 +442,61 @@ const Hero = () => {
     </Marquee>
   </div>
 </div>
+
+{/* Featured Services Grid (3x2) */}
+<section className="py-16 bg-white">
+<h2 className="text-4xl font-bold text-center mb-6 relative flex justify-center items-center gap-2">
+  Why Choose Us
+  <img 
+    src="/TB(BG).png" 
+    alt="TB" 
+    className="w-25 h-30 mt-3"
+  />
+  <span className="block w-full h-1 bg-green-600 mx-auto mt-2 absolute -bottom-1 left-0"></span>
+</h2>
+
+
+  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto px-4">
+    {/* Card 1 */}
+    <div className="bg-white border-2 border-gray-200 rounded-xl shadow-lg p-6 hover:shadow-green-400 transition">
+      <h3 className="text-xl font-semibold mb-4">Excellent Writers <FaPenAlt /></h3>
+      <p className="text-gray-600">"We work with top-tier writers like Tanmay Bhat and Vishal Dayama, known for crafting iconic campaigns for brands like Boldcare, CRED, and MakeMyTrip."</p>
+    </div>
+
+    {/* Card 2 */}
+    <div className="bg-white border-2 border-gray-200 rounded-xl shadow-lg p-6 hover:shadow-green-400 transition">
+      <h3 className="text-xl font-semibold mb-4">Budget Friendly Campaigns <GiReceiveMoney /></h3>
+      <p className="text-gray-600">"Even with a limited budget, we’ll ensure your campaign reaches top creators—and with the power of the meme community, we’ll amplify it to the next level."</p>
+    </div>
+
+    {/* Card 3 */}
+    <div className="bg-white border-2 border-gray-200 rounded-xl shadow-lg p-6 hover:shadow-green-400 transition">
+      <h3 className="text-xl font-semibold mb-4">On-Time Action<IoTime /></h3>
+      <p className="text-gray-600">"Just share the date and time—then relax. We’ll handle everything from managing and hosting to boosting your media content."</p>
+    </div>
+
+    {/* Card 4 */}
+    <div className="bg-white border-2 border-gray-200 rounded-xl shadow-lg p-6 hover:shadow-green-400 transition">
+      <h3 className="text-xl font-semibold mb-4">Different Content Everywhere<MdOutlineMediation /></h3>
+      <p className="text-gray-600">"For web or movie campaigns, we use IG, FB, and Twitter to share attention-grabbing clips. For long-form content, we promote on YouTube."</p>
+    </div>
+
+    {/* Card 5 */}
+    <div className="bg-white border-2 border-gray-200 rounded-xl shadow-lg p-6 hover:shadow-green-400 transition">
+      <h3 className="text-xl font-semibold mb-4">Campaign Statistics<IoStatsChart /></h3>
+      <p className="text-gray-600">"After a successful campaign, we’ll share performance stats so you can see how your product did online and plan your next launch effectively."</p>
+    </div>
+
+    {/* Card 6 */}
+    <div className="bg-white border-2 border-gray-200 rounded-xl shadow-lg p-6 hover:shadow-green-400 transition">
+      <h3 className="text-xl font-semibold mb-4">Partnership Offers<FaHandshake /></h3>
+      <p className="text-gray-600">"Choose us once, and we’ll make sure you partner with us again—with added benefits and exclusive discounts for your next campaign."</p>
+    </div>
+  </div>
+</section>
+
+
+  <span className="block w-full h-1 bg-green-600 mx-auto mt-2"></span>
 
 </section>
 <section id="contact" className="py-16 bg-white text-center flex items-center justify-between">

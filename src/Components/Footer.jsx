@@ -71,7 +71,7 @@ function Footer() {
           className="hover:shadow-lg hover:shadow-pink-500/50 transition duration-300 rounded">
           <FaSquareReddit />
           </a>
-           <a href="https://www.twitch.com" target="_blank" rel="noopener noreferrer"
+           <a href="https://www.twitch.tv/" target="_blank" rel="noopener noreferrer"
           className="hover:shadow-lg hover:shadow-pink-500/50 transition duration-300 rounded">
           <FaTwitch />
           </a>
