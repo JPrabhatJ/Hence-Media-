@@ -230,8 +230,8 @@ const Hero = () => {
   </span> ☠️
     </h2>
  <p className="text-gray-700 mb-5 ">
-      "We all know that Dhoni himself is a brand image, and when the meme tagline 'Bole Jo Koyal' was created about him, it clearly showcased how powerful the meme industry is and the massive impact it can have. The best part is, we worked with E-Motorad to bring this to life, and it successfully created a buzz on the internet. This proves that memes are one of the best things to have ever happened on the internet."
-    </p>
+ "We all know that Dhoni himself is a brand, and when the meme tagline 'Bole Jo Koyal' was created about him, it clearly demonstrated the power of the meme industry and the massive impact it can have. The best part is that we collaborated with E-Motorad to bring this to life, and it successfully created a buzz on the internet. This proves that memes are one of the best things to have ever happened online."
+ </p>
  <button
   className="px-6 py-3 bg-red-600 text-white font-bold rounded-lg mt-4 transform transition arrow-cursor duration-300 
              hover:scale-105 hover:shadow-lg hover:shadow-pink-500/50 active:scale-95 active:shadow-none 
@@ -273,8 +273,8 @@ const Hero = () => {
     </h2>
 
     <p className="text-gray-700 mb-5">
-      "Those who watched Big Boss OTT (YouTuber Edition) know very well how Twitter trends play a crucial role in determining the final winner. With hashtags like #ElvishYadavWinner and #FukraInsaanWinner trending, it became clear how influential social media can be in the competition. That's why we, at Hence Media, made sure both received equal attention on X (formerly Twitter). We successfully managed and executed both campaigns, collaborating closely with their respective PR teams."
-     </p>
+   "Those who watched Bigg Boss OTT (YouTuber Edition) know how crucial Twitter trends are in determining the final winner. With hashtags like #ElvishYadavWinner and #FukraInsaanWinner trending, it became evident just how influential social media can be in such competitions. That’s why we at Hence Media ensured both contestants received equal attention on X (formerly Twitter). We successfully managed and executed both campaigns, working closely with their respective PR teams."
+   </p>
           <button
   className="px-6 py-3 bg-red-600 text-white font-bold rounded-lg mt-4 transform transition arrow-cursor duration-300 
              hover:scale-105 hover:shadow-lg hover:shadow-pink-500/50 active:scale-95 active:shadow-none 
@@ -316,7 +316,7 @@ const Hero = () => {
   </span> 😍
     </h2>
       <p className="text-gray-700 mb-5">
-     "Leveraging the power of influencers and meme pages led to massive engagement. The campaign’s center piece was their dialogs & satirical punchlines, launched through Reels and Statics which resonated deeply with audiences across through the country. By tapping into an extensive network with a follower base of 80 million, (Hence Media) achieved a staggering reach of 140 million+."
+     "Leveraging the power of influencers and meme pages led to massive engagement. The centerpiece of the campaign was their dialogues and satirical punchlines, launched through Reels and static posts, which resonated deeply with audiences across the country. By tapping into an extensive network with a combined follower base of 80 million, Hence Media achieved a staggering reach of over 140 million."
      </p>
    <button
   className="px-6 py-3 bg-red-600 text-white font-bold rounded-lg mt-4 transform transition arrow-cursor duration-300 
@@ -360,8 +360,8 @@ const Hero = () => {
   </span> 🤩
     </h2>
     <p className="text-gray-700 mb-5">
-      "We worked with current internet's sensation PURAV JHA who pulled off this mobile marketing very well with dialogs from another meme trend, "Teri Jabaan bohot chalti hai surya". With a whooping 2crore+ views this campaign went successful."
-    </p>
+  "We collaborated with the current internet sensation, Purav Jha, who executed the mobile marketing campaign brilliantly using dialogues from another popular meme trend, 'Teri zabaan bohot chalti hai, Surya.' With a whopping 2 crore+ views, the campaign was a resounding success."
+  </p>
 
 <button
   className="px-6 py-3 bg-red-600 text-white font-bold rounded-lg mt-4 transform transition arrow-cursor duration-300 
@@ -397,7 +397,7 @@ const Hero = () => {
   </span> 🫡
     </h2>
   <p className="text-gray-700">
-   "The next viral ad campaign on internet can be yours! We'll make sure your campaign surpasses all your past reaches. With our expertise, extensive mass following, and hook-grabbing memes, we promise to deliver a handsome reach."
+  "The next viral ad campaign on the internet could be yours! We'll ensure your campaign surpasses all your previous reach. With our expertise, extensive audience network, and attention-grabbing memes, we promise to deliver exceptional results."
   </p>
      <button
   className="px-6 py-3 bg-blue-600 text-white font-bold rounded-lg mt-4 transform transition arrow-cursor duration-300 
